@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}实验目的}{2}{}%
+\contentsline {section}{\numberline {2}实验原理}{2}{}%
+\contentsline {section}{\numberline {3}实验步骤}{3}{}%
+\contentsline {subsection}{\numberline {3.1}仪器与试剂}{3}{}%
+\contentsline {subsection}{\numberline {3.2}操作流程}{4}{}%
+\contentsline {section}{\numberline {4}数据记录}{5}{}%
+\contentsline {section}{\numberline {5}数据处理与结果讨论}{5}{}%
+\contentsline {subsection}{\numberline {5.1}作出硝酸钾的摩尔积分溶解热曲线图}{5}{}%
+\contentsline {subsection}{\numberline {5.2}结果分析与讨论}{6}{}%
+\contentsline {subsection}{\numberline {5.3}注意事项}{6}{}%
+\contentsline {section}{\numberline {6}思考题}{6}{}%
+\contentsline {subsection}{\numberline {6.1}本实脸装置是否适用于放热过程的热效应测定?}{6}{}%
+\contentsline {subsection}{\numberline {6.2}若实验开始设定为水温与室温相等时计算机提示加人第一份KNO,样品,则对实验结果是否会有影响?}{6}{}%
+\contentsline {subsection}{\numberline {6.3}若实验结束后发现加样管中残留了一些 KNO，固体或 KNO，固体没有经过干燥处理,则这两种情况对实验结果有何影响?}{7}{}%
+\contentsline {subsection}{\numberline {6.4}如何获得反应 $CaCl_2(s)+6H_2O(l)\rightarrow CaCl_2\cdot 6H_2O(s)$的热效应？}{7}{}%
