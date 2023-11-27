@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}实验目的}{2}{}%
+\contentsline {section}{\numberline {2}实验原理}{2}{}%
+\contentsline {subsection}{\numberline {2.1}牛乳中的蛋白质}{2}{}%
+\contentsline {subsection}{\numberline {2.2}等电点沉淀原理}{2}{}%
+\contentsline {subsection}{\numberline {2.3}实验综述}{2}{}%
+\contentsline {section}{\numberline {3}方案}{2}{}%
+\contentsline {subsection}{\numberline {3.1}试剂和设备}{2}{}%
+\contentsline {subsection}{\numberline {3.2}实验步骤与操作}{3}{}%
+\contentsline {subsection}{\numberline {3.3}注意事项}{3}{}%
+\contentsline {section}{\numberline {4}实验数据记录和处理}{3}{}%
+\contentsline {subsection}{\numberline {4.1}离心后的样品}{3}{}%
+\contentsline {subsection}{\numberline {4.2}实验结果}{4}{}%
+\contentsline {section}{\numberline {5}数据分析讨论、总结建议}{4}{}%
+\contentsline {subsection}{\numberline {5.1}分析讨论}{4}{}%
+\contentsline {subsection}{\numberline {5.2}总结建议}{4}{}%
+\contentsline {section}{\numberline {6}思考题}{5}{}%
+\contentsline {subsection}{\numberline {6.1}制备高产率纯酪蛋白的关键是什么？}{5}{}%
