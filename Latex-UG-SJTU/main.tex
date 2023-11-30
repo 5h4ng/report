@@ -1,0 +1,233 @@
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+\usepackage{amsmath}
+\numberwithin{equation}{section}
+\allowdisplaybreaks[4]       %多行公式中换页
+\usepackage{array}
+\usepackage{caption}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{dutchcal}
+\usepackage{color}
+\usepackage{graphicx}    %插入图片
+\usepackage{times}
+\usepackage{mathptmx}
+\usepackage{fancyhdr} %页眉页脚
+\usepackage{booktabs}  %三线表
+\usepackage[T1]{fontenc}
+\usepackage{enumerate}
+\usepackage{physics}
+\usepackage{siunitx}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{subcaption}
+\usepackage{bicaption}
+\usepackage{appendix}
+
+
+% 中文字体设置，不设置时默认为linux系统自带的宋体fandol-song
+%\usepackage{xeCJK}
+%\setCJKmainfont{Noto Serif CJK SC} % 如果有生僻字，可以换用思源宋体为主要字体
+%\setCJKsansfont{Noto Sans CJK SC}
+%\setCJKmonofont{Noto Sans Mono CJK SC}
+
+% 英文字体设置
+%\setmainfont{Times New Roman}  % 默认字体也是Roman字体，可以根据自己喜好设置
+%\setsansfont{Arial}            % 默认的无衬线字体跟Arial非常接近，可以根据自己喜好设置
+
+
+% 参考文献设置
+\usepackage[backend=biber,style=gb7714-2015,maxnames=3]{biblatex}
+\renewcommand{\bibfont}{\small} % 文献表字号
+\setlength{\bibitemsep}{0pt}    % 文献表条目间的间距
+\addbibresource{main.bib}       % 导入参考文献数据库
+
+
+% 页面版心大小
+\setlength{\textheight}{22cm}
+\setlength{\textwidth}{15cm}
+
+% 页边距设置
+\setlength{\voffset}{-1.14cm}
+\setlength{\hoffset}{-0.57cm}
+%\setlength{\headheight}{14.48167pt} 
+\setlength{\headheight}{1cm}
+\setlength{\topmargin}{0cm}
+%\setlength{\headsep}{2.9cm}
+\setlength{\headsep}{1.8cm}
+\setlength{\footskip}{1.2cm}
+
+
+% 页眉页脚设置
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+% 只需要区分fancy和empty页面，每章的页眉页脚需手动定义
+\fancypagestyle{plain}{
+  \pagestyle{fancy}     % 将plain页面格式替换为fancy，确保目录页有页眉
+}
+\fancyhfinit{\small} % 页眉页脚字号
+
+% 双线页眉
+\makeatletter
+\def\headrule{{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi%
+\hrule\@height 1.5pt \@width\headwidth\vskip1.5pt%上面线为1pt粗
+\hrule\@height 0.5pt\@width\headwidth  %下面0.5pt粗
+\vskip-2\headrulewidth\vskip-1pt}      %两条线的距离1pt
+  \vspace{6mm}}     %双线与下面正文之间的垂直间距
+\makeatother
+
+
+% 行距
+\usepackage{setspace}
+\setlength{\baselineskip}{20pt}
+\newcommand*{\circled}[1]{\lower.7ex\hbox{\tikz\draw (0pt, 0pt)%
+    circle (.5em) node {\makebox[1em][c]{\small #1}};}}
+
+
+% 目录设置
+\usepackage{hyperref}  
+\hypersetup{hidelinks}
+
+\usepackage{tocloft} 
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} %为目录中section补上引导点
+\usepackage{titletoc}
+\titlecontents{section}[0pt]
+              {\addvspace{6pt}\filright\large\bf} %要将ABSTRACT的字体也替换为Arial的话，在本括号中末尾加上\ttfamily\songti
+              {\contentspush{\thecontentslabel \quad }} %
+              {}{\titlerule*[8pt]{.}\contentspage}
+\setlength{\cftbeforesubsecskip}{6pt}
+\setlength{\cftbeforesubsubsecskip}{6pt}
+
+% 目录缩进
+\setlength{\cftsubsecindent}{1em}
+\setlength{\cftsubsubsecindent}{2em}
+
+% 目录字体
+\renewcommand{\cftsubsecfont}{\normalsize}
+\renewcommand{\cftsubsubsecfont}{\small}
+
+
+% 图表编号
+\captionsetup[figure][bi-second]{name=Figure} %设置图的英文编号前缀
+\captionsetup[table][bi-second]{name=Table} %设置表的英文编号前缀
+\numberwithin{equation}{section}%公式按章节编号
+\numberwithin{figure}{section}%图表按章节编号
+\numberwithin{table}{section}
+\renewcommand {\thefigure} {\thesection{}-\arabic{figure}}%设定图片的编号。这样设置的实现效果为图1-1
+\renewcommand {\thetable} {\thesection{}-\arabic{table}}
+
+
+% 图/表标题格式
+\captionsetup{font={small,bf},labelsep=quad,justification=centering} 
+\captionsetup[subfigure]{labelfont=normalfont,textfont=normalfont} % 子图题不加粗
+
+
+% 浮动体间距
+%\setlength{\intextsep}{6pt}    % h浮动体与上下文间距
+%\setlength{\floatsep}{6pt}     % 浮动体之间的间距
+%\setlength{\textfloatsep}{6pt} % t/b浮动体与正文邻接间距
+
+
+% 表内字体
+\usepackage[captionskip=6pt]{floatrow}
+\floatsetup[table]{font={small},capposition=top}
+
+
+% 各级标题格式
+\ctexset{section={
+  format={\heiti \zihao{3} \bfseries \center},
+  number={第\chinese{section}章}
+}}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{24pt}{18pt}
+\titlespacing{\subsection}{0pt}{24pt}{12pt}
+\titlespacing{\subsubsection}{0pt}{12pt}{6pt}
+\titleformat*{\subsection}{\heiti\large\bfseries}
+\titleformat*{\subsubsection}{\heiti\normalsize\bfseries}
+
+
+% autoref中文名称
+\def\equationautorefname{式}
+\def\footnoteautorefname{脚注}
+\def\itemautorefname{项}
+\def\figureautorefname{图}
+\def\tableautorefname{表}
+%\def\partautorefname{篇}
+\def\appendixautorefname{附录}
+%\def\chapterautorefname{章} % 不使用chapter，而使用section作为章
+\def\sectionautorefname{} % 由于已经修改章节名称为第X章，应该在autoref中不加前缀
+\def\subsectionautorefname{节}
+\def\subsubsectionautorefname{小节}
+\renewcommand{\algorithmcfname}{算法}
+\renewcommand{\algorithmautorefname}{算法}
+
+
+% 盲审模式控制
+\newif \ifreview
+%\reviewtrue     %开启盲审模式，反之注释掉
+\reviewfalse    %关闭盲审模式
+
+
+% 打印模式控制（需要在章节划分处使用\clearsection命令）
+\newif \ifprint
+%\printtrue      %打印模式
+\printfalse     %非打印模式，建议用于生成电子版
+
+\ifprint
+\newcommand{\clearsection}{\clearpage \ifodd\value{page}\else \thispagestyle{empty}\hbox{}\newpage\fi} % 打印模式下，每章右页起
+\else
+\newcommand{\clearsection}{\clearpage} % 非打印模式，连续排版
+\fi
+
+
+
+
+\begin{document}
+
+\input{sec/0.0-front.tex}
+
+\ifreview
+\else
+\input{sec/0.1-statement.tex}
+\fi
+
+\pagenumbering{Roman}
+\fancyhead[LH]{上海交通大学学位论文}
+\fancyhead[RH]{}
+
+\input{sec/0.2-abstract.tex}
+
+\input{sec/0.3-menu.tex}
+
+\pagenumbering{arabic}
+
+\input{sec/1-intro.tex}
+
+\input{sec/2-related.tex}
+
+\input{sec/3-framework.tex}
+
+\input{sec/4-summary.tex}
+
+
+\input{sec/-1.0-reference.tex}
+
+\input{sec/-1.1-appendix.tex}
+
+\ifreview
+\input{sec/-1.2-ouput-review.tex}
+\else
+\input{sec/-1.2-ouput.tex}
+\fi
+
+\ifreview
+\else
+\input{Latex-UG-SJTU/sec/-1.3-acknowledgements}
+\fi
+
+\pagenumbering{arabic}
+\input{Latex-UG-SJTU/sec/-1.4-digest}
+
+
+\end{document} 
