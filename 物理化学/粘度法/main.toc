@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}实验目的}{3}{section.1}%
+\contentsline {section}{\numberline {2}实验原理}{3}{section.2}%
+\contentsline {section}{\numberline {3}仪器与试剂}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}实验仪器}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}实验试剂}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}实验步骤}{5}{section.4}%
+\contentsline {section}{\numberline {5}原始数据记录}{6}{section.5}%
+\contentsline {section}{\numberline {6}数据处理}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}数据处理与归纳}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}拟合与可视化}{7}{subsection.6.2}%
+\contentsline {section}{\numberline {7}结果分析与讨论}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}结果分析}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}总结与改进}{10}{subsection.7.2}%
+\contentsline {section}{\numberline {8}思考题}{11}{section.8}%
+\contentsline {subsection}{\numberline {8.1}乌氏黏度计中的支管C有什么作用？除去支管C,是否仍可测黏度？}{11}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}乌氏黏度计的毛细管太粗或太细各有什么缺点？}{11}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}利用黏度法测定高聚物相对摩尔质量的局限性有哪些？}{11}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}特性黏度$[\eta ]$就是溶液无限稀释时的比浓黏度，它和纯溶剂的黏度是否一样？为什么要用特性黏度求高聚物的相对摩尔质量？}{11}{subsection.8.4}%
