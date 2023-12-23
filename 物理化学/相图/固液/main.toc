@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}实验目的}{3}{section.1}%
+\contentsline {section}{\numberline {2}实验原理}{3}{section.2}%
+\contentsline {section}{\numberline {3}实验试剂与仪器}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}二组分体系气液平衡相图测定实验仪器}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}二组分体系液固平衡相图测定实验试剂}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}实验步骤}{5}{section.4}%
+\contentsline {section}{\numberline {5}实验数据记录}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}原始数据}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}步冷曲线}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}数据处理}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}步冷曲线}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}转折温度与相图}{8}{subsection.6.2}%
+\contentsline {section}{\numberline {7}数据分析与讨论}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}结果分析}{9}{subsection.7.1}%
+\contentsline {section}{\numberline {8}思考题}{10}{section.8}%
+\contentsline {subsection}{\numberline {8.1}绘制二组分相图常用哪些方法？}{10}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}试用相律分析各冷却曲线上出现平台何转折点的原因。}{10}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3} 为什么在不同组分的熔融液的冷却曲线上，最低共熔点的水平线段长度不同？}{10}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4} 若已知二组分体系的许多不同组成的冷曲线，但不知道低共熔点组成，有什么办法确定？}{10}{subsection.8.4}%
+\contentsline {section}{\numberline {9}附表}{11}{section.9}%
